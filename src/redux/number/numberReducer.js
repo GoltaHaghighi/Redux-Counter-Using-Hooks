@@ -4,13 +4,13 @@ const initialState = {
 
 const numberReducer = (state = initialState, action) => {
     switch (action.type) {
-        case "X2_NUMBER": {
+        case "POW2": {
             return {
                 ...state,
                 number: Math.pow(state.number, 2)
             }
         }
-        case "X3_NUMBER": {
+        case "SQRT3": {
             return {
                 ...state,
                 number: Math.sqrt(state.number)

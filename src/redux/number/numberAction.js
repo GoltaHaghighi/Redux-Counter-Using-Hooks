@@ -1,12 +1,12 @@
-const x2 = () => {
+const pow2 = () => {
     //Write actions in capital letters
-    return { type: "X2_NUMBER" }
+    return { type: "POW2" }
     //by using this, we can tell reducer to do "increace" action 
     //that in reducer we describe : by having "increace" action 
     // add 1 to the counter in store
 };
-const x3 = () => {
-    return { type: "X3_NUMBER" }
+const sqrt3 = () => {
+    return { type: "SQRT3" }
 };
 
-export { x2, x3 };
+export { pow2, sqrt3 };
